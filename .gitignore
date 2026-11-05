@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.pkl
+*.xlsx
+*.pptx
+*.pdf
+data/processed/
+ETA-Prediction-Data/
+ETA-Prediction-Data.zip
+2.Coding Trials/
+0.Preparation/
+HK_Traffic Trial/
+
+# Local agent settings, credentials and private data
+.claude/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.joblib

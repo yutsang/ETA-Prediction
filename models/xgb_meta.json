@@ -1,0 +1,46 @@
+{
+  "feature_cols": [
+    "haversine_km",
+    "hour_of_day",
+    "day_of_week",
+    "month",
+    "is_morning_peak",
+    "is_evening_peak",
+    "is_weekend",
+    "planned_duration_min",
+    "warehouse_enc",
+    "orig_lat",
+    "orig_lon",
+    "dest_lat",
+    "dest_lon",
+    "vehicle_enc"
+  ],
+  "vehicle_classes": [
+    "LARGE",
+    "MEDIUM",
+    "OTHER",
+    "VAN"
+  ],
+  "metrics": {
+    "rmse": 1.0980998277664185,
+    "mae": 0.3195386826992035,
+    "r2": 0.6719614863395691
+  },
+  "feature_importance": {
+    "haversine_km": 0.016268786042928696,
+    "hour_of_day": 0.04582028090953827,
+    "day_of_week": 0.030121847987174988,
+    "month": 0.034572526812553406,
+    "is_morning_peak": 0.03298155963420868,
+    "is_evening_peak": 0.0,
+    "is_weekend": 0.019375676289200783,
+    "planned_duration_min": 0.07452157884836197,
+    "warehouse_enc": 0.04715453460812569,
+    "orig_lat": 0.08338277786970139,
+    "orig_lon": 0.06661776453256607,
+    "dest_lat": 0.029884494841098785,
+    "dest_lon": 0.021108068525791168,
+    "vehicle_enc": 0.49819016456604004
+  },
+  "best_iteration": 499
+}
